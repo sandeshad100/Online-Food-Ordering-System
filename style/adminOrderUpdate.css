@@ -1,0 +1,339 @@
+div,
+ul,
+h1 {
+    /* border: 1px solid blue; */
+}
+
+
+
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN: #1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN: brown;
+    --PRIMARY: #0275d8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN:#1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN:brown;
+    --PRIMARY:#0275d8;
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--BROWN);
+}
+body {
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+/* NAVBAR */
+
+.logo {
+    color: white !important;
+    position: relative;
+    right: 120px;
+    font-size: 20px;
+}
+
+.logo:hover {
+    color: var(--GREEN);
+    cursor: pointer;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--BROWN);
+    color: var(--WHITE);
+    width: 100%;
+    height: 60px;
+}
+
+header ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    color: var(--WHITE);
+    list-style: none;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+header ul li a:hover {
+    color: greenyellow;
+}
+
+header .navRight button {
+    border: none;
+    margin: 0 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+}
+
+
+.navRight .login button {
+    cursor: pointer;
+    background: brown;
+    color: white;
+    border: 1px solid white;
+
+
+}
+
+.navRight .login button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navRight a button {
+    font-weight: 600;
+}
+
+.signUp button {
+    position: relative;
+    right: -105px;
+}
+
+.signUp button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+
+
+/* category */
+.bodyContainer {
+    width: 100%;
+
+    display: flex;
+    /* border: 1px solid green; */
+}
+
+.category {
+
+    width: 200px;
+
+    /* height: 100%;
+    min-height: 100vh; */
+    border: 1px solid red;
+    border-bottom: none;
+    border-top: none;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 5px 2px 4px 2px rgba(0, 0, 0, 0.2);
+
+    margin: 0px;
+
+
+
+
+}
+
+.category h3 {
+    /* background-color: #DD4A48; */
+    color: red;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.category ul li {
+
+    list-style: none;
+    /* margin: 10px auto; */
+    color: black;
+    /* margin: 10px 10px; */
+
+}
+
+
+.category li {
+    border-bottom: 1px solid var(--RED);
+    /* background-color: #95CD41; */
+    width: 100%;
+    padding: 10px auto;
+    transition: 0.3s ease-out;
+}
+
+.category li:hover {
+    cursor: pointer;
+    /* background-color: #DD4A48; */
+    color: white;
+
+}
+
+.category ul li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.category a {
+    /* padding-bottom: 80px; */
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+
+    /* background-color: #DD4A48; */
+    /* margin-left: 55px; */
+}
+
+.category ul li a:hover {
+    background-color: var(--RED);
+    color: white;
+}
+
+
+.category .border {
+    width: 100%;
+
+    /* border: 1px solid var(--RED); */
+}
+
+
+
+ /* shipping form */
+ .container h1{
+     color: var(--RED) !important;
+ }
+ select,textarea{
+     margin: 5px 0px;
+ }
+ .container small{
+     color: var(--RED);
+ }
+ .shipping_form {
+     margin: 10px auto;
+     
+    border: 1px solid brown;
+    background-color:whitesmoke;
+    padding: 10px 0px 10px;
+    
+ }
+ .shipping_form h1{
+    color: black;
+    text-align: center;
+ }
+
+.shipping_form label,input{
+    color: var(--RED);
+    display: block;
+    margin: 5px 0 0 0;
+    
+}
+.shipping_form input,textarea, select{
+    margin-bottom: 20px;
+}
+.shipping_form input{
+    width: 385px;
+    /* font-size: 20px; */
+}
+
+
+.shipping_form .container{
+    padding: 10px 20px;
+    
+}
+ 
+.shipping_form .img_parent{
+    width: 150px;
+
+}
+
+.shipping_form .img_parent img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* .shipping_form input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #1fae51;
+    transition: all 0.3s ease;
+
+} */
+
+.shipping_form .proceed_btn{
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #1fae51;
+    transition: all 0.3s ease;
+
+}
+
+.shipping_form .proceed_btn:hover{
+
+    color: #085824;
+    background-color: white;
+    border: 1px solid #1fae51;
+  
+}
+
+
+.shipping_form .continue_btn{
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #88882d;
+    transition: all 0.3s ease;
+
+}
+.shipping_form .continue_btn:hover{
+    cursor: pointer;
+    color:#414104 ;
+    background-color: white;
+    border: 1px solid #b3b32a;
+  
+}

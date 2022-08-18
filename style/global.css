@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN:#1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN:brown;
+    --PRIMARY:#0275d8;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--BROWN);
+  }
+
+  .messageBox{
+      width: 100%;
+      height: fit-content;
+      padding: 5px;
+      background-color: #d4edda;
+     
+
+  }
+  .messageBox p{
+      font-weight: 600;
+    color: var(--DEEPGREEN) !important;
+  }

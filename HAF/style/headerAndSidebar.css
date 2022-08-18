@@ -1,0 +1,218 @@
+div,
+ul,
+h1 {
+    /* border: 1px solid blue; */
+}
+
+
+/* *{
+    border: red 1px solid;
+} */
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN: #1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN: brown;
+    --PRIMARY: #0275d8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+/* NAVBAR */
+
+.logo {
+    color: white;
+    position: relative;
+    right: 120px;
+    font-size: 20px;
+}
+
+.logo:hover {
+    color: var(--GREEN);
+    cursor: pointer;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--BROWN);
+    color: var(--WHITE);
+    width: 100%;
+    height: 60px;
+}
+
+header ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    color: var(--WHITE);
+    list-style: none;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+header ul li a:hover {
+    color: greenyellow;
+}
+
+header .navRight button {
+    border: none;
+    margin: 0 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+}
+
+
+.navRight .login button {
+    cursor: pointer;
+    background: brown;
+    color: white;
+    border: 1px solid white;
+
+
+}
+
+.navRight .login button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navRight a button {
+    font-weight: 600;
+}
+
+.signUp button {
+    position: relative;
+    right: -105px;
+}
+
+.signUp button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+header small{
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    left: 29px;
+    top: 39px;
+    
+}
+
+
+/* category */
+.bodyContainer {
+    display: flex;
+    /* border: 1px solid green; */
+}
+
+.category {
+
+    width: 200px;
+
+
+    min-height: 100vh;
+    border: 1px solid red;
+    border-top: none;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 5px 2px 4px 2px rgba(0, 0, 0, 0.2);
+
+    margin: 0px;
+
+
+
+
+}
+
+.category h3 {
+    /* background-color: #DD4A48; */
+    color: red;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.category ul li {
+
+    list-style: none;
+    /* margin: 10px auto; */
+    color: black;
+    /* margin: 10px 10px; */
+
+}
+
+
+.category li {
+    border-bottom: 1px solid var(--RED);
+    /* background-color: #95CD41; */
+    width: 100%;
+    padding: 10px auto;
+    transition: 0.3s ease-out;
+}
+
+.category li:hover {
+    cursor: pointer;
+    /* background-color: #DD4A48; */
+    color: white;
+
+}
+
+.category ul li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.category a {
+    /* padding-bottom: 80px; */
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+
+    /* background-color: #DD4A48; */
+    /* margin-left: 55px; */
+}
+
+.category ul li a:hover {
+    background-color: var(--RED);
+    color: white;
+}
+
+
+.category .border {
+    width: 100%;
+
+    /* border: 1px solid var(--RED); */
+}

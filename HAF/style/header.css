@@ -1,0 +1,120 @@
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN:#1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN:brown;
+    --PURERED: red;
+}
+.logo{
+    color: white;
+}
+
+
+.logo:hover {
+    color: var(--GREEN);
+    cursor: pointer;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--BROWN);
+    color: var(--WHITE);
+    width: 100%;
+    height: 80px;
+}
+
+header ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    color: var(--WHITE);
+    list-style: none;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+header ul li a:hover {
+    color: greenyellow;
+}
+
+header .navRight button {
+    border: none;
+    margin: 0 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+}
+
+
+.navRight .login button,
+.navRight .cart button, .navRight .trackOrder_btn button { 
+    width: fit-content;
+    padding: 1px 8px;
+    background: brown;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.navRight .login button{
+    border: none !important;
+    color: black !important;
+}
+.login button:hover {
+    cursor: pointer;
+    color: white !important;
+}
+.navRight a button {
+    font-weight: 600;
+}
+
+.signUp button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.navRight small{
+    color: white !important;
+    position: absolute;
+    right: 145px;
+    width: 250px;
+  
+    height: 20px;
+    top: 60px;
+    text-align: left;
+}
+
+.cart button:hover,
+/* .login button:hover, */
+.trackOrder_btn button:hover
+{
+    background-color: rgb(236, 26, 26);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.messageBox  {
+    padding: 5px 5px 5px 20px;
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+    background-color: #d4edda;
+    color: #1fae51;
+}

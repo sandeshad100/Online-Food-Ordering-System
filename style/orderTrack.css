@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN:#1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN:brown;
+    --PRIMARY:#0275d8;
+}
+    h1,h2,h3,h4,h5,h6
+    {
+    color: var(--BROWN);
+     }
+
+  /* header */
+  /* .logo{
+      color: white;
+  }
+  header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+    color: var(--WHITE);
+    width: 100%;
+    height: 80px;
+}
+
+header ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    color: var(--WHITE);
+    list-style: none;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+header ul li a:hover {
+    color: greenyellow;
+}
+
+header .navRight button {
+    border: none;
+    margin: 0 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+}
+
+
+header .navRight .login button,
+header .navRight .cart button {
+    background: brown;
+    color: white;
+    border: 1px solid white;
+
+}
+
+header .navRight a button {
+    font-weight: 600;
+}
+
+header .signUp button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+header .cart button:hover,
+header .login button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+} */
+/* pages */
+.pages{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 10px 0px 20px;
+}
+.pages .page_btn{
+    width: 30px;
+    height: 45px;
+    margin: 0px 10px;
+    font-size: 20px;
+
+    background: brown;
+    color: white;
+    border: 1px solid white;
+
+}
+.pages .page_btn:hover{
+    background-color: rgb(236, 26, 26);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.container{
+    /* width: 100vw; */
+  
+    padding: 10px 20px;
+    height: fit-content;
+    min-height: 400px;
+    
+}
+.container .textCenter{
+    text-align: center;
+    margin-top: 60.0%;
+
+
+}
+
+.container .box2{
+   
+    padding: 0px 20px;
+    height: fit-content;
+   
+
+}
+
+.box1 table{
+    border-collapse: collapse;
+    width: 100%;
+
+    text-align: left !important;
+    /* border: 1px solid red; */
+}
+.box1 th{
+    color: var(--BROWN);
+    padding: 10px;
+}
+.box1 tr,td{
+    border-bottom: 1px solid red;
+    padding: 10px;
+}
+
+.box1 h1{
+    color: ;
+    margin: 10px 0 10px;
+}
+.noteBox{
+  
+    padding: 10px ;
+    width: 98.2%;
+    height: 50px;
+    border-bottom: 1px solid red;
+}
+
+.box2{
+    /* background-color: whitesmoke; */
+    /* border: #0275d8 solid 1px; */
+
+    margin: 10px;
+    padding: 10px 20px;
+   
+}
+
+.box2 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* cart */
+  .cart_container table {
+    border-collapse: collapse;
+    text-align: center;
+    
+  }
+  
+  .cart_container tr {
+    border-bottom: 1px solid brown;
+  }
+  .cart_container th{
+      color: brown;
+      /* border-bottom: 2px solid brown; */
+
+  }
+
+  .cart_container tr,th, td {
+    /* border: 1px solid black; */
+   width: 150px;
+   height: auto;
+   /* text-align: center; */
+  }
+ 
+  .cart_container td,th{
+      padding: 5px; 
+      /* border: 1px solid rgb(189, 47, 47);   */
+  }
+  .cart_container td p{
+    margin-left:10px;
+    max-width: 200px;
+    white-space: nowrap; 
+    width: 200px;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .cart_container{
+      text-align: left;
+  }
+  .cart_container h2{
+      margin-bottom: 20px;
+      color: brown;
+  }
+ 
+  .cart_container img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+  .cart_container .qty{
+    margin: 8px;
+}
+.cart_container .inc_btn{
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(52, 153, 39);
+    
+    
+}
+.cart_container .dec_btn{
+    padding: 3px; 
+     text-align: center;
+    text-decoration: none;
+    color: brown;
+   
+   
+}
+
+.cart_container .del{
+    color: brown;
+}
+.cart_container .cart_bottom{
+
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline; 
+     /* border-bottom: 1px solid brown; */
+
+}
+.cart_container .total_btn{
+    margin: 0 30px 0 0;
+}
+.cart_container .proceed_btn{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: -15%;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #1fae51;
+    transition: all 0.3s ease;
+
+}
+
+.cart_container .proceed_btn:hover{
+
+    color: #085824;
+    background-color: white;
+    border: 1px solid #1fae51;
+  
+}
+
+.cart_container .continue_btn{
+
+    width: 150px;
+    height:35px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: #b6b625;
+    transition: all 0.3s ease;
+    position: relative;
+    right: 475%;
+}
+
+.cart_container .continue_btn:hover{
+    cursor: pointer;
+    color:#414104 ;
+    background-color: white;
+    border: 1px solid #b3b32a;
+  
+}
+
+
+.default_btn{
+    text-decoration: none;
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 0px;
+    right: 50px;
+    font-weight: 700;
+    background-color: var(--RED);
+    color: rgb(240, 255, 242);
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+}
+.default_btn:hover {
+    color: brown;
+    background-color: white;
+    border: 1px solid brown;
+    cursor: pointer;
+}
+
+.cart_container .line{
+    width: 100%;
+    
+    border-bottom: 2.5px solid green;
+}
+
+.cart_bottom h3{
+/* color: var(--DEEPGREEN); */
+  /* right: 487px; */
+}
+.special{
+    color: var(--BROWN);
+    font-weight: 550;
+}

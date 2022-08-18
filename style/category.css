@@ -1,0 +1,348 @@
+div,
+ul,
+h1 {
+    /* border: 1px solid blue; */
+}
+
+
+/* *{
+            border: red 1px solid;
+        } */
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN:#1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN:brown;
+    --PURERED: red;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+/* NAVBAR */
+
+
+
+.logo:hover {
+    color: var(--GREEN);
+    cursor: pointer;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--BROWN);
+    color: var(--WHITE);
+    width: 100%;
+    height: 80px;
+}
+
+header ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    color: var(--WHITE);
+    list-style: none;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+header ul li a:hover {
+    color: greenyellow;
+}
+
+header .navRight button {
+    border: none;
+    margin: 0 10px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+}
+
+
+.navRight .login button,
+.navRight .cart button {
+    background: brown;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.navRight a button {
+    font-weight: 600;
+}
+
+.signUp button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.cart button:hover,
+.login button:hover {
+    background-color: rgb(236, 26, 26);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+
+/* search */
+
+.search {
+
+    width: 100vw;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.search h2 {
+    color: var(--RED);
+}
+
+.search input {
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+    padding: 5px 5px;
+    margin: 10px auto;
+    color: var();
+    
+}
+
+/* product showcase */
+.productShowcase .image {
+    width: 300px;
+    height: 320px;
+    border: 1px var(--RED) solid;
+    /* border-radius: 20px; */
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 6px 6px 15px 3px rgb(0 0 0 / 20%);
+
+}
+
+.productShowcase img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: 0.5px solid white;
+    
+    transition: all ease-in-out 1.0s;
+
+
+}
+
+.productShowcase .image:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+    /* filter: saturate(130%); */
+    /* filter:contrast(110%); */
+    /* filter: brightness(110%); */
+    /* border-radius: 20px 20px 0 0; */
+    cursor: pointer;
+    transition: transform .5s ease-out;
+
+
+}
+
+
+
+.productShowcase h2 {
+    color: var(--BROWN);
+    text-align: center;
+}
+
+.productShowcase .entry-text {
+    margin: 0 130px 0 0;
+}
+
+
+.productShowcase .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.productShowcase button {
+    text-decoration: none;
+    width: 90%;
+    height: 10%;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: rgb(240, 255, 242);
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.productShowcase button:hover {
+    background-color: var(--DEEPGREEN);
+    cursor: pointer;
+}
+
+.productShowcase .image h3 {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    height: 23px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.productShowcase .image p {
+    margin-top: 0.1em;
+    margin-left: 1em;
+}
+
+.productShowcase .image label {
+   
+    margin-left: 1em;
+}
+
+.productShowcase .image input[type="number"] {
+    width: 20%;
+    margin: 0 0 0 1em;
+
+}
+.default_btn{
+    background-color: var(--RED);
+}
+.update_btn{
+    background-color: var(--DEEPGREEN);
+}
+/* category */
+.bodyContainer {
+    display: flex;
+    
+}
+
+.category {
+    
+    width: 30%;
+    height: fit-content;
+    border: 1px solid red;
+    border-bottom: none;
+    border-radius: 0px 10px 0 0 ;
+    margin: 46px 0 0 0px;
+
+   
+    
+
+}
+
+.category h3{
+ 
+    color: var(--BROWN);
+    margin: 10px auto;
+    text-align: center;
+}
+
+.category ul li {
+    
+    list-style: none;
+    color: black;
+    
+   
+}
+
+
+.category li{
+    border-bottom: 1px solid var(--RED);
+    width: 100%;
+    padding: 10px auto;
+    transition: 0.3s ease-out;
+}
+.category li:hover{
+    cursor: pointer;
+    color: white;
+   
+}
+.category ul li a {
+    text-decoration: none;
+    color: black;
+    
+   
+}
+.category a{
+    /* padding-bottom: 80px; */
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    text-align: center;
+   
+    /* background-color: #DD4A48; */
+   /* margin-left: 55px; */
+}
+.category ul li a:hover {
+     background-color: var(--RED);
+    color: white;
+}
+
+
+.category .border {
+    width: 100%;
+
+}
+
+/* pages */
+.pages{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 10px 0px 20px;
+}
+.pages .page_btn{
+    width: 30px;
+    height: 45px;
+    margin: 0px 10px;
+    font-size: 20px;
+
+    background: brown;
+    color: white;
+    border: 1px solid white;
+
+}
+.pages .page_btn:hover{
+    background-color: rgb(236, 26, 26);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

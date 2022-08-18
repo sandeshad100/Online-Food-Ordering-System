@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(64, 102, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url(images/pexels-chan-walrus-958545.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+:root {
+    --GREEN:#95CD41;
+    --RED:#DD4A48;
+}
+label{
+    display: block;
+    margin: 10px 0 0 0;
+    
+}
+h2, h1,p{
+    text-align: center;
+    color: var(--RED);
+}
+.image p{
+    margin-top: 3px;
+}
+.image h1{
+    margin-bottom: 0;
+}
+.image h1:hover{
+    color: var(--GREEN);
+}
+
+.image p:hover{
+    color: var(--GREEN);
+}
+form{
+    width: 100%;
+    padding: 0px 60px;
+}
+input{
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 10px;
+    color:var(--RED) ;
+    border: 1px solid var(--RED) ;
+}
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 0 0;
+    color: aliceblue;
+    background-color: var(--RED);
+    margin: 20px auto;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: var(--GREEN);
+    border: none;
+    
+}
+
+.email_Input {  
+    display: block;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    height: 80vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.90;
+    border-radius: 30px;
+    
+  
+
+}
+.container_form h2{
+   /* position: absolute;
+
+   top: 110px; */
+}
+.container_form{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(191, 223, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 40px; */
+    padding-top: 20px;
+    border-radius: 0 30px 30px 0;
+    
+    
+}
+
+button{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 0px 0 0 0;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(190, 130, 130);
+    margin: 20px auto;
+    cursor: pointer;
+    color: aliceblue;
+    
+}
+
+button:hover{
+    background-color: var(--GREEN);
+}
+
+button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* main image */
+.image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.image img{
+    width: 100%;
+}
+
+.create_btn{
+    width: calc(100% - 120px);
+}
+

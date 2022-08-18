@@ -1,0 +1,97 @@
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN: #1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN: brown;
+    --PRIMARY: #0275d8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--BROWN);
+}
+
+.container {
+    width: 85vw;
+    padding: 15px;
+
+    /* flex-wrap: wrap;
+    flex-flow: wrap row; */
+
+}
+
+.container h2 {
+    margin: 0 0 0 20px !important;
+}
+
+.block {
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+.block .statusBox {
+    /* background-color: lavender; */
+    padding: 10px;
+    /* width: 180px; */
+    height: fit-content;
+    /* border: 1px crimson solid; */
+
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+
+    border-radius: 20px;
+    /* box-shadow: 5px 10px #514f4f; */
+    box-shadow: 8px 3px 10px #888888;
+}
+
+.success {
+    /* color: var(--DEEPGREEN) !important; */
+}
+
+.warning {
+    /* color: crimson !important; */
+}
+
+.trust {
+    /* color: #0275d8 !important; */
+}
+
+.joy {
+    /* color: crimson !important; */
+}
+
+.iconBox {
+    /* color: var(--DEEPGREEN); */
+    color: crimson;
+    /* transition: 0.1s ease-in-out; */
+}
+
+.iconBox:hover {
+
+    color: var(--DEEPGREEN);
+}
+
+.infoBox {
+    text-align: right;
+    margin-left: 30px;
+}
+
+.infoBox h1 {
+    font-size: 25px;
+    margin: 5px 0px;
+}
+
+.infoBox p {
+    font-size: 17px;
+}

@@ -1,0 +1,166 @@
+div,
+ul,
+h1 {
+    /* border: 1px solid blue; */
+}
+
+
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN:#1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN:brown;
+    --PRIMARY:#0275d8;
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--BROWN);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.stage_btn{
+    width: 182px;
+    height: 30px;
+    background-color: var(--BROWN);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    margin: 0 0 30px 0px;
+}
+.stage_btn:hover{
+    cursor: pointer;
+    color: var(--RED);
+    background-color: white;
+    border: 1px solid var(--RED);
+}
+.green{
+    color: green;
+}
+
+
+/* container */
+.container{
+    width: 86%;
+}
+
+
+table {
+    border-collapse: collapse;
+    
+  }
+  
+  tr {
+    border-bottom: 1px solid brown;
+  }
+  th{
+      color: brown;
+      border-bottom: 2px solid brown;
+
+  }
+
+ tr,th, td {
+    /* border: 1px solid black; */
+   width: 150px;
+   height: auto;
+   text-align: center;
+  }
+ 
+  td,th{
+      padding: 5px; 
+      /* border: 1px solid rgb(189, 47, 47);   */
+  }
+  td p{
+    margin-left:0px;
+    max-width: 160px;
+    /* white-space: ;  */
+    width: 150px;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .cart_container{
+      text-align: left;
+      margin: 10px;
+  }
+  .cart_container h1{
+      margin-bottom: 20px;
+      color: brown;
+  }
+ 
+  .cart_container img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+.qty{
+    margin: 8px;
+}
+.inc_btn{
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(52, 153, 39);
+    
+    
+}
+.dec_btn{
+    /* padding: 3px; */
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+   
+   
+}
+
+.del{
+    color: brown;
+}
+.cart_bottom{
+
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    /* border-bottom: 1px solid brown; */
+
+}
+
+
+
+
+
+.line{
+    width: 100%;
+    
+    border-top: 2px solid brown;
+}
+
+.action_btn a
+{
+   
+    margin: 0 10px;
+}
+
+tr:nth-child(even) {
+    /* color: white;
+    font-weight: 600;
+    background: rgb(202, 54, 54); */
+    
+  }
+ 
+.selected_btn{
+    background-color:#7c3333;
+}

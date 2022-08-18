@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #085824; */
+    width: 98.5.7vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --GREEN: #95CD41;
+    --DEEPGREEN:#1fae51;
+    --RED: #DD4A48;
+    --WHITE: white;
+    --BROWN:brown;
+    --PRIMARY:#0275d8;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--BROWN);
+  }
+label{
+    color: #DD4A48;
+}
+label,input{
+    display: block;
+    /* margin: 10px 0 0 0; */
+    
+}
+input,textarea, select{
+    margin-bottom: 20px;
+}
+input{
+    width: 385px;
+    height: 30px;
+    font-size: 17px;
+    
+    /* font-size: 20px; */
+}
+
+label{
+    color: var(--RED);
+}
+
+
+input[type="submit"]{
+    width: 100%;
+    height: 30px;
+}
+.container{
+    width: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    
+}
+.bodyContainer{
+    width: 100%;
+}
+.container h2{
+    margin: 5px auto;
+}
+ .container .formParent{
+  
+    border: 1px solid brown;
+    padding: 20px;
+ }
+.img_parent{
+    width: 150px;
+    height: fit-content;
+
+}
+
+.img_parent img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #1fae51;
+    transition: all 0.3s ease;
+
+}
+
+input[type="submit"]:hover{
+
+    color: #085824;
+    background-color: white;
+    border: 1px solid #1fae51;
+  
+}
+.cancle_btn{
+            
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    height: 30px;
+    background-color: #b6b625;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+.cancle_btn:hover{
+cursor: pointer;
+color:#414104 ;
+background-color: white;
+border: 1px solid #b3b32a;
+}
+
+#dropDown{
+    font-size: 16px;
+  }
+
+
+
+
